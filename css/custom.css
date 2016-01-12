@@ -6,8 +6,9 @@
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.7),
+      no-repeat
     );
-  background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/GTIYP0R4RE.jpg) no-repeat;
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/GTIYP0R4RE.jpg");
   background-size: 100% auto;
 }
