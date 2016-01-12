@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Mukul Patel</title>
     <!-- Required Twitter Bootstrap files -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS & Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
     <!-- Add custom.css file -->
-    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
   </head>
   
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a href="#" class="navbar-brand" id="nav-brand">Mukul Patel</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+	<header class="top header">
+            <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Mukul Patel</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-home fa-fw"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-info-circle fa-fw"></i> About</a></li>
+					<li><a href="#projects"><i class="fa fa-folder-o fa-fw"></i> Portfolio</a></li>
+                    <li><a href="#contact"><i class="fa fa-comment fa-fw"></i> Contact</a></li>
+                </ul>
+            </div>
+            </nav>
+	</header>
     
-    <div class="container navback" id="Home">
+	<section class="banner text-center" id="sec1">
+		<div class="container">
+			<div class="col-md-12">
+				<h1>Mukul Patel</h1>
+				<h3>Aspiring Full Stack Web Developer</h3>
+				<a href="https://twitter.com/mukul215" target="_blank"><i class="fa fa-twitter fa-lg fa-fw"></i></a>
+				<a href="https://github.com/Mukul215" target="_blank"><i class="fa fa-github fa-lg fa-fw"></i></a>
+				<a href="http://stackoverflow.com/users/3207381/mukul215" target="_blank"><i class="fa fa-stack-overflow fa-lg fa-fw"></i></a>
+			</div>
+		</div>
+	</section>
+    
+	<div class="container navback" id="Home" style="background: url('http://calebevans.com/wp-content/uploads/2013/06/mountain_2.jpg') no-repeat;">
       
     </div>
     <div class="container" id="About">
       
     </div>
-    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Load JavaScript files after html has been loaded -->
     <script type="text/javascript" src="script/custom.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
   
   <footer>

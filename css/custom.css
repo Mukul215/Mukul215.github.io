@@ -1,14 +1,25 @@
+.top-header {
+	position: fixed;
+	width: 100%;
+	z-index: 333;
+	display: block;
+}
+
+
 #nav-brand {
   font-family: 'Julius Sans One', Helvetica, sans-serif;
 }
 
-.navback {
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7),
-      no-repeat
-    );
-  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/GTIYP0R4RE.jpg");
-  background-size: 100% auto;
+
+.home {
+    background: url(../images/grey_mountains.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.banner::before {
+	width: 150px;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 205px;
+    font-weight: 800;
 }
