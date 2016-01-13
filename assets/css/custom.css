@@ -4,18 +4,18 @@
 
 
 .homePage {
-    background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/RLJZG8QQBC.jpg") no-repeat center center fixed;
+    background: url(../images/RLJZG8QQBC.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100% auto;
 }
 .aboutMe {
-	background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6UHHE19YG7.jpg") no-repeat center center fixed;
+	background: url(../images/6UHHE19YG7.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100% auto;
 	
 }
 
@@ -24,3 +24,11 @@
 	padding-top: 150px;
 	padding-bottom: 600px;
 }
+
+.styleHR { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: rgb(212,175,55);
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
