@@ -6,52 +6,77 @@
     <!-- Required Twitter Bootstrap files -->
     <!-- Latest compiled and minified CSS & Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+	  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
     <!-- Add custom.css file -->
     <link type="text/css" rel="stylesheet" href="assets/css/custom.css" />
   </head>
   
   <body>
-  	<header class="top header">
-      <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Mukul Patel</a>
-            </div>
-      
-            <ul class="nav navbar-nav navbar-right navbar-fixed">
-                <li><a href="#"><i class="fa fa-home fa-fw"></i> Home</a></li>
-                <li><a href="#about"><i class="fa fa-info-circle fa-fw"></i> About</a></li>
-                <li><a href="#projects"><i class="fa fa-folder-o fa-fw"></i> Portfolio</a></li>
-                <li><a href="#contact"><i class="fa fa-comment fa-fw"></i> Contact</a></li>
-            </ul>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-fixed-top navbar-inverse" id="my-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <a href="#" class="navbar-brand">Mukul</a>
+        </div> <!-- Navbar Header -->
+        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about"><i class="fa fa-info-circle fa-fw"></i> About</a></li>
+            <li><a href="#projects"><i class="fa fa-folder-o fa-fw"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fa fa-comment fa-fw"></i> Contact</a></li>
+          </ul>
         </div>
-      </nav>
-  	</header>
-      
+      </div> 
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HOME SCREEN -->
   	<section class="homePage">
   		<div class="row">
     		<div class="container text-center" id="home">
     			<div class="col-md-12">
     				<h1>Mukul Patel</h1>
     				<hr class="styleHR">
-    				<h3>Aspiring Full Stack Web Developer</h3>
+    				<h3>&lt; Aspiring Full Stack Web Developer /&gt;</h3>
     				<a href="https://twitter.com/mukul215" target="_blank"><i class="fa fa-twitter fa-lg fa-fw"></i></a>
     				<a href="https://github.com/Mukul215" target="_blank"><i class="fa fa-github fa-lg fa-fw"></i></a>
     				<a href="http://stackoverflow.com/users/3207381/mukul215" target="_blank"><i class="fa fa-stack-overflow fa-lg fa-fw"></i></a>
     			</div>
-    		</div>
+    		  <div>
+            <span><a href="#about" class="white-arrow"><i class="fa fa-chevron-down fa-3x"></i></a></span>
+          </div>
+        </div>
   		</div>
   	</section>
-    
+    <!-- END HOME SCREEN -->
+
+    <!-- START ABOUT ME -->
   	<section class="aboutMe">
   		<div class="container" id="about">
-  		  testing
+  		  <div class="container text-center col-md-12">
+          <span>ABOUT ME</span>
+        </div>
   		</div>
   	</section>
-    <div class="container" id="About">
-      
-    </div>
+    <!-- END ABOUT ME -->
+
+    <!-- START PORTFOLIO -->
+    <section class="projects">
+      <div class="container" id="projects">
+        <div class="container text-center col-md-12">
+          <span>PORTFOLIO</span>
+        </div>
+      </div>
+    </section>
+    <!-- END PORTFOLIO -->
+    
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -61,6 +86,8 @@
   </body>
   
   <footer>
-    <div class="container text-center">Copyright &copy; 2016 Mukul Patel</div>
+    <div class="footer text-center">
+      <span class="container">Copyright &copy; 2016 Mukul Patel</span>
+    </div>
   </footer>
 </html>
